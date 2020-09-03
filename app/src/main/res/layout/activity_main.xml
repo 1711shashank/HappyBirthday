@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+
+        android:src="@drawable/androidparty"/>
+    <TextView
+        android:id="@+id/Happy"
+        android:text="Happy Birthday RAJ"
+        android:layout_width="wrap_content"
+        android:textSize="36sp"
+        android:padding="20dp"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="From Shashank"
+        android:textSize="36sp"
+        android:textColor="@android:color/white"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
